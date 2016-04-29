@@ -1,17 +1,17 @@
 <skin>
 <!--Menu Information big-->
-<screen name="menu_information" position="70,20" size="585,580" title="Menu">
+<screen name="menu_information" position="50,90" size="585,580" title="Menu">
   <widget source="global.CurrentTime" render="Label" position="408,-1" size="170,65" font="Regular; 55" halign="right" backgroundColor="background20" transparent="1" valign="top">
     <convert type="ClockToText">Default</convert>
   </widget>
   <widget source="global.CurrentTime" render="Label" position="258,35" size="148,29" font="Regular; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
     <convert type="ClockToText">Format:%d. %B</convert>
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="281,2" size="125,30" font="Regular; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
+  <widget source="global.CurrentTime" render="Label" position="132,34" size="125,30" font="Regular; 20" halign="right" backgroundColor="background20" foregroundColor="grey" transparent="1">
     <convert type="ClockToText">Format:%A</convert>
   </widget>
-  <widget source="title" render="Label" position="2,0" size="273,70" font="Regular; 28" backgroundColor="background20" transparent="1" valign="top" zPosition="-50" />
-  <widget source="menu" render="Listbox" position="5,74" size="576,255" scrollbarMode="showNever" enableWrapAround="1" backgroundColor="black" foregroundColor="white" selectionPixmap="Prime-NFR-Style-by-stein17/selection/selection50.png" transparent="1">
+  
+  <widget source="menu" render="Listbox" position="5,75" size="576,255" scrollbarMode="showNever" enableWrapAround="1" backgroundColor="black" foregroundColor="white" selectionPixmap="Prime-NFR-Style-by-stein17/selection/selection50.png" transparent="1">
     <convert type="TemplatedMultiContent">
 				{"template": [ MultiContentEntryText(pos = (30, 5), size = (420, 50), flags = RT_HALIGN_LEFT, text = 0) ],
 				"fonts": [gFont("Regular", 26)],
