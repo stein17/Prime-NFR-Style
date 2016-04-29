@@ -1,3 +1,6 @@
 # Prime-NFR-Style
 NFR-Skin for Enigma2
-Für Open NFR 5.1 und Höher
+Fix Webradio_WS
+add new Window Bordersets
+add new Screens
+new skin.xml
