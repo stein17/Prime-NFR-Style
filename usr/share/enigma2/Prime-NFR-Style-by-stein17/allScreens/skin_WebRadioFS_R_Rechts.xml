@@ -32,12 +32,12 @@
 			</convert>
 </widget>
  <!--top on left site in stream-list-Screen-->	   
- <eLabel font="Regular; 32" position="15,12" size="850,40" text="webradioFS" transparent="1" zPosition="1" halign="left" backgroundColor="background" foregroundColor="white" />
+ <eLabel font="Regular; 32" position="15,12" size="850,40" text="webradioFS" transparent="1" zPosition="1" halign="left" backgroundColor="black" foregroundColor="white" />
  <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/webradiorechts.png" position="0,0" size="1280,720" zPosition="-20" />
- <widget source="global.CurrentTime" render="Label" position="1155,18" size="100,28" font="Regular;26" halign="right" backgroundColor="background20" transparent="1">
+ <widget source="global.CurrentTime" render="Label" position="1155,18" size="100,28" font="Regular;26" halign="right" backgroundColor="black" transparent="1">
  <convert type="ClockToText">Default</convert>
  </widget>
- <widget source="global.CurrentTime" render="Label" position="803,22" size="350,25" font="Regular; 20" halign="right" backgroundColor="background20" transparent="1">
+ <widget source="global.CurrentTime" render="Label" position="803,22" size="350,25" font="Regular; 20" halign="right" backgroundColor="black" transparent="1">
  <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
  </widget>
  <ePixmap alphatest="blend" pixmap="Prime-NFR-Style-by-stein17/skin_default/icons/ico_rec_off.png" position="1215,665" size="45,23" zPosition="2" />
@@ -68,7 +68,7 @@
 		</convert>
 </widget>
 <!--extended help-->
- <widget name="help" zPosition="4" position="30,140" size="880,480" foregroundColor="white" backgroundColor="background20" font="Regular;18" itemHeight="30" transparent="1" />
+ <widget name="help" zPosition="4" position="30,140" size="880,480" foregroundColor="white" backgroundColor="black" font="Regular;18" itemHeight="30" transparent="1" />
 <!--bottom left text -->
 <widget source="playtext" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1500,always=0" render="RunningText" position="30,631" zPosition="2" size="700,60" font="Regular;28" valign="center" halign="center" foregroundColor="metrixsimpleForeground" backgroundColor="black" transparent="0" />
 <!--bottom in Screen for streams and genres, ... (button-line)-->
@@ -94,17 +94,17 @@
   <ePixmap alphatest="blend" pixmap="Prime-NFR-Style-by-stein17/skin_default/icons/wbrl.png" position="802,77" size="120,30" transparent="1" zPosition="5" />
 </screen>
     <screen name="WebradioFSSetup_13" position="0,0" zPosition="2" size="1280,720" title="webradioFS" flags="wfNoBorder" backgroundColor="transparent">
-    <widget source="global.CurrentTime" render="Label" position="1155,18" size="100,28" font="Regular;26" halign="right" backgroundColor="background20" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="1155,18" size="100,28" font="Regular;26" halign="right" backgroundColor="black" transparent="1">
         <convert type="ClockToText">Default</convert>
       </widget>
-      <widget source="global.CurrentTime" render="Label" position="803,22" size="350,25" font="Regular; 20" halign="right" backgroundColor="background20" transparent="1">
+      <widget source="global.CurrentTime" render="Label" position="803,22" size="350,25" font="Regular; 20" halign="right" backgroundColor="black" transparent="1">
         <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
       </widget>
 	  <!--top on left site in stream-list-Screen  -->
 	  <widget source="playtext" options="movetype=running,startpoint=0,direction=left,steptime=50,repeat=5,startdelay=1500,always=0" render="RunningText" position="30,630" zPosition="2" size="880,60" font="Regular;28" valign="center" halign="center" foregroundColor="metrixsimpleForeground" backgroundColor="black" transparent="0" />
       <widget name="rec_txt" position="550,69" size="700,25" font="Regular; 20" halign="center" valign="center" zPosition="2" backgroundColor="black" transparent="1" foregroundColor="white" />
 	  <!--left site in Screen for Streams, Genres...-->
-	  <widget name="config" position="30,130" zPosition="3" size="880,490" foregroundColor="white" backgroundColor="background20" scrollbarMode="showOnDemand" itemHeight="30" transparent="1" />
+	  <widget name="config" position="30,130" zPosition="3" size="880,490" foregroundColor="white" backgroundColor="black" scrollbarMode="showOnDemand" itemHeight="30" transparent="1" />
       <!--bottom left-->
     <!--bottom in Screen for streams and genres, ... (button-line)-->
 	  <ePixmap pixmap="Prime-NFR-Style-by-stein17/skin_default/buttons/red.png" position="980,595" size="20,20" alphatest="blend" transparent="1" />
@@ -143,9 +143,9 @@
 	<screen name="wbrScreenSaver_13" position="0,0" zPosition="5" size="1280,720" flags="wfNoBorder" backgroundColor="black" title="">
       <widget name="background1" pixmap="Prime-NFR-Style-by-stein17/menu/WBR-Player.png" position="0,0" size="1280,720" zPosition="11" transparent="0" />
       <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/WBR-Player.png" position="0,0" size="1280,720" zPosition="11" />
-      <widget name="display_station" position="255,342" zPosition="12" size="400,40" font="Regular;32" halign="left" transparent="1" foregroundColor="meinrot" noWrap="1" backgroundColor="background20" />
-      <widget name="display_time" position="255,282" zPosition="12" size="400,90" font="Regular;26" halign="left" transparent="1" foregroundColor="meinrot" backgroundColor="background20" />
-      <widget name="display_nplaying" position="255,382" zPosition="12" size="400,90" font="Regular;26" halign="left" transparent="1" foregroundColor="cyan1" backgroundColor="background20" />
+      <widget name="display_station" position="255,342" zPosition="12" size="400,40" font="Regular;32" halign="left" transparent="1" foregroundColor="meinrot" noWrap="1" backgroundColor="black" />
+      <widget name="display_time" position="255,282" zPosition="12" size="400,90" font="Regular;26" halign="left" transparent="1" foregroundColor="meinrot" backgroundColor="black" />
+      <widget name="display_nplaying" position="255,382" zPosition="12" size="400,90" font="Regular;26" halign="left" transparent="1" foregroundColor="cyan1" backgroundColor="black" />
       <widget name="cover" zPosition="12" size="200,200" position="50,282" alphatest="blend" />
       <widget name="cover2" zPosition="12" size="400,400" position="0,281" alphatest="blend" />
       <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/chillen.png" position="251,277" size="410,200" transparent="1" alphatest="blend" zPosition="10" />

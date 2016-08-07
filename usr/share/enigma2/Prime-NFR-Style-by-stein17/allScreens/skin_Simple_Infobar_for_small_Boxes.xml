@@ -32,7 +32,7 @@
   <convert type="ConditionalShowHide">Blink</convert>
 </widget>
     <!-- Aufnahme */-->
-  <widget source="session.CurrentService" render="Picon" position="26,575" size="220,132" zPosition="10" backgroundColor="background20" transparent="0" alphatest="blend">
+  <widget source="session.CurrentService" render="Picon" position="26,575" size="220,132" zPosition="10" backgroundColor="black" transparent="0" alphatest="blend">
     <convert type="ServiceName">Reference</convert>
   </widget>
   <widget source="session.Event_Now" render="Label" position="781,608" size="75,30" font="Regular; 22" halign="right" backgroundColor="black" transparent="1" valign="top">
@@ -75,7 +75,7 @@
   <widget source="session.CurrentService" render="Label" position="274,566" size="661,36" font="Regular; 32" valign="top" noWrap="1" backgroundColor="black" transparent="1" zPosition="0" halign="center" foregroundColor="cyan1">
     <convert type="ServiceName">Name</convert>
   </widget>
-  <widget source="global.CurrentTime" render="Label" position="1068,570" size="180,70" font="Regular; 60" halign="center" backgroundColor="background20" transparent="1" valign="top">
+  <widget source="global.CurrentTime" render="Label" position="1068,570" size="180,70" font="Regular; 60" halign="center" backgroundColor="black" transparent="1" valign="top">
     <convert type="ClockToText">Default</convert>
   </widget>
   <widget source="global.CurrentTime" render="Label" position="1068,682" size="180,34" font="Regular; 28" halign="center" backgroundColor="black" transparent="1">
@@ -85,11 +85,11 @@
     <convert type="ClockToText">Format:%e. %b</convert>
   </widget>
   <!-- TunerInfo */-->
-  <widget source="session.Event_Next" render="Label" position="781,644" size="75,30" font="Regular; 22" halign="right" backgroundColor="background" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
+  <widget source="session.Event_Next" render="Label" position="781,644" size="75,30" font="Regular; 22" halign="right" backgroundColor="black" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
     <convert type="EventTime">StartTime</convert>
     <convert type="ClockToText">Default</convert>
   </widget>
-  <widget source="session.Event_Next" render="Label" position="871,644" size="75,30" font="Regular; 22" halign="left" backgroundColor="background" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
+  <widget source="session.Event_Next" render="Label" position="871,644" size="75,30" font="Regular; 22" halign="left" backgroundColor="black" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
     <convert type="EventTime">EndTime</convert>
     <convert type="ClockToText">Default</convert>
   </widget>

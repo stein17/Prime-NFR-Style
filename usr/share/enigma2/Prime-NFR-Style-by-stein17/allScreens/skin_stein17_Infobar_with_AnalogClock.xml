@@ -5,7 +5,7 @@
     <widget alphatest="blend" pixmap="Prime-NFR-Style-by-stein17/skin_default/icons/ico_rec_on.png" position="277,578" render="Pixmap" size="45,23" source="session.RecordState" zPosition="5">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
-    <widget source="session.CurrentService" render="Picon" position="12,575" size="220,132" zPosition="10" backgroundColor="background20" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="Picon" position="12,575" size="220,132" zPosition="10" backgroundColor="black" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="860,622" size="75,30" font="Regular; 22" halign="right" backgroundColor="black" transparent="1" valign="top">
@@ -34,11 +34,11 @@
       <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
     <!-- TunerInfo */-->
-    <widget source="session.Event_Next" render="Label" position="861,668" size="75,30" font="Regular; 22" halign="right" backgroundColor="background" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
+    <widget source="session.Event_Next" render="Label" position="861,668" size="75,30" font="Regular; 22" halign="right" backgroundColor="black" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
       <convert type="EventTime">StartTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="session.Event_Next" render="Label" position="953,668" size="70,30" font="Regular; 22" halign="left" backgroundColor="background" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
+    <widget source="session.Event_Next" render="Label" position="953,668" size="70,30" font="Regular; 22" halign="left" backgroundColor="black" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>

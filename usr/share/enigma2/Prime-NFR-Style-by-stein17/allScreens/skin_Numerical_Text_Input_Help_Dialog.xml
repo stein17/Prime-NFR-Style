@@ -1,7 +1,7 @@
    <skin> 
   <!-- NumericalTextInputHelpDialog -->
 <screen name="NumericalTextInputHelpDialog" position="300,500" size="680,143" flags="wfNoBorder" zPosition="100">
-  <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/key_frame.png" position="0,0" size="680,143" backgroundColor="background20" zPosition="-10" transparent="1" alphatest="blend" />
+  <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/key_frame.png" position="0,0" size="680,143" backgroundColor="black" zPosition="-10" transparent="1" alphatest="blend" />
   <widget name="key1" position="28,12" size="198,24" font="Console;24" halign="center" valign="center" />
   <widget name="key2" position="252,12" size="198,24" font="Console; 24" halign="center" valign="center" />
   <widget name="key3" position="475,12" size="198,24" font="Console; 24" halign="center" valign="center" />

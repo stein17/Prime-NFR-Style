@@ -34,7 +34,7 @@
     <widget alphatest="blend" pixmap="Prime-NFR-Style-by-stein17/skin_default/icons/ico_rec_on.png" position="616,687" render="Pixmap" size="45,23" source="session.RecordState" zPosition="5">
       <convert type="ConditionalShowHide">Blink</convert>
     </widget>
-    <widget source="session.CurrentService" render="Picon" position="20,574" size="220,132" zPosition="10" backgroundColor="background20" transparent="0" alphatest="blend">
+    <widget source="session.CurrentService" render="Picon" position="20,574" size="220,132" zPosition="10" backgroundColor="black" transparent="0" alphatest="blend">
       <convert type="ServiceName">Reference</convert>
     </widget>
     <widget source="session.Event_Now" render="Label" position="264,607" size="75,30" font="Regular; 22" halign="center" backgroundColor="black" transparent="1" valign="top">
@@ -70,7 +70,7 @@
     <widget source="session.CurrentService" render="Label" position="479,687" size="60,26" font="Regular; 20" halign="left" backgroundColor="black" transparent="1" valign="center">
       <convert type="ServiceInfo">VideoHeight</convert>
     </widget>
-    <widget source="session.CurrentService" render="Label" position="294,687" size="90,26" backgroundColor="background20" transparent="1" zPosition="10" font="Regular; 20" halign="center">
+    <widget source="session.CurrentService" render="Label" position="294,687" size="90,26" backgroundColor="black" transparent="1" zPosition="10" font="Regular; 20" halign="center">
       <convert type="ServiceOrbitalPosition" />
     </widget>
     <eLabel text="SNR :" position="872,567" size="70,20" halign="right" font="Regular; 18" backgroundColor="black" transparent="1" valign="center" />
@@ -81,11 +81,11 @@
       <convert type="ServiceName">Name</convert>
     </widget>
     <!-- TunerInfo */-->
-    <widget source="session.Event_Next" render="Label" position="263,648" size="75,30" font="Regular; 22" halign="center" backgroundColor="background" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
+    <widget source="session.Event_Next" render="Label" position="263,648" size="75,30" font="Regular; 22" halign="center" backgroundColor="black" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
       <convert type="EventTime">StartTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="session.Event_Next" render="Label" position="888,648" size="70,30" font="Regular; 21" halign="left" backgroundColor="background" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
+    <widget source="session.Event_Next" render="Label" position="888,648" size="70,30" font="Regular; 21" halign="left" backgroundColor="black" foregroundColor="white" transparent="1" noWrap="1" zPosition="1">
       <convert type="EventTime">EndTime</convert>
       <convert type="ClockToText">Default</convert>
     </widget>

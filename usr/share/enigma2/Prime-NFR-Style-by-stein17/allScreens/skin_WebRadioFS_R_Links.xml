@@ -33,7 +33,7 @@
 </widget>
     <!--top on left site in stream-list-Screen-->
     <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/epgselection.png" position="0,0" size="1280,720" transparent="1" zPosition="-5" />
-    <widget source="global.CurrentTime" render="Label" position="1166,15" size="100,28" font="Regular;26" halign="right" backgroundColor="background20" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="1166,15" size="100,28" font="Regular;26" halign="right" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
     <widget source="global.CurrentTime" render="Label" position="816,18" size="350,25" font="Regular; 20" halign="right" backgroundColor="black" transparent="1">
@@ -94,10 +94,10 @@
     <ePixmap pixmap="Prime-NFR-Style-by-stein17/selection/Line 700x1.png" position="500,131" size="700,1" alphatest="blend" />
   </screen>
   <screen name="WebradioFSSetup_13" position="0,0" size="1280,720" title="webradioFS" flags="wfNoBorder" zPosition="2" backgroundColor="transparent">
-    <widget source="global.CurrentTime" render="Label" position="1166,15" size="100,28" font="Regular;26" halign="right" backgroundColor="background20" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="1166,15" size="100,28" font="Regular;26" halign="right" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Default</convert>
     </widget>
-    <widget source="global.CurrentTime" render="Label" position="816,18" size="350,25" font="Regular; 20" halign="right" backgroundColor="background20" transparent="1">
+    <widget source="global.CurrentTime" render="Label" position="816,18" size="350,25" font="Regular; 20" halign="right" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y</convert>
     </widget>
     <!--top on left site in stream-list-Screen  -->
@@ -145,9 +145,9 @@
   <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/wbrFS_r_links.png" position="0,0" size="400,590" transparent="1" zPosition="-5" alphatest="blend" />
   <eLabel name="" position="308,94" size="82,72" backgroundColor="metrixBackground" foregroundColor="transpBlack" zPosition="-20" />
 </screen>
-  <screen name="wbrScreenSaver_13" position="0,0" zPosition="5" size="1280,720" flags="wfNoBorder" backgroundColor="background" title="">
+  <screen name="wbrScreenSaver_13" position="0,0" zPosition="5" size="1280,720" flags="wfNoBorder" backgroundColor="black" title="">
     <ePixmap pixmap="Prime-NFR-Style-by-stein17/menu/WBR-Player.png" position="0,0" size="1280,720" transparent="1" zPosition="-5" />
-    <widget name="background1" position="0,0" size="1280,720" zPosition="11" transparent="0" backgroundColor="background" />
+    <widget name="background1" position="0,0" size="1280,720" zPosition="11" transparent="0" backgroundColor="black" />
     <widget name="display_station" position="255,342" zPosition="12" size="400,40" font="Regular;32" halign="left" transparent="1" foregroundColor="un5b00" noWrap="1" />
     <widget name="display_time" position="255,282" zPosition="12" size="400,90" font="Regular;26" halign="left" transparent="1" foregroundColor="un7300" />
     <widget name="display_nplaying" position="255,382" zPosition="12" size="400,90" font="Regular;26" halign="left" transparent="1" foregroundColor="un7300" />
